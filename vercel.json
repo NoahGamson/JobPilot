@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/fetch-jobs", "dest": "/fetch-jobs.js" },
+    { "src": "/api/generate", "dest": "/generate.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
